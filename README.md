@@ -1,2 +1,11 @@
-# mac_ssd_replace
-macbook ssd replacement
+2018.11.21
+# MacBook SSD Replacement
+
+## 前言
+本教程纯手工打制，也仅在本机所处环境下测试通过，并不具有完全通用性。
+苹果原装1T SSD几乎8000元左右，而nvme的顶级1T SSD一般在2000-2500左右，通过转接头可以完美实现SSD替换操作，节省预算，速度更快。
+## 前期准备
+### 硬件准备
+电脑：MacBook Pro with Retina，13寸，2015年初款。
+
+### 软件准备
