@@ -29,7 +29,8 @@ U盘A用来预装macOS，U盘B用来预装Ubuntu系统。需要注意的是，U�
 ### 软件准备
 + #### MAC+引导
 本教程所在系统是macOS High Sierra 10.13.3，不能低于10.13，尽量不要选用新的Mojave。可以在mac的app store里下到相关系统。   
-![image](https://github.com/fei7yang/mac_ssd_replace/blob/master/images/WX20181121-115807%402x.png)
+![image](https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-115807%402x.png)
+
   点击下载地址[https://support.apple.com/zh-cn/HT208969](https://support.apple.com/zh-cn/HT208969)，步骤四中点击“获取macOS High Sierra”即可跳转至mac的app store进行下载。
 
  链接自动跳转到app store里，点击“下载”即可下载到本地文件夹，大约5.6GB。
