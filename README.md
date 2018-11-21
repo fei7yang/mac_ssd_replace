@@ -8,6 +8,7 @@
 ### 硬件准备
 + #### 电脑
 MacBook Pro with Retina，13寸，2015年初款。
+![image](https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-115807%402x.png)
 理论上只要是2015年末之前的MacBook，不论型号，都可以进行硬盘替换，目前已知2017款后均采取内存、硬盘焊死操作，不允许进行第三方改装。
 检测方法：背面苹果LOGO能亮灯一般就是可以改装。
 + #### 两个U盘
@@ -28,18 +29,20 @@ U盘A用来预装macOS，U盘B用来预装Ubuntu系统。需要注意的是，U�
 
 ### 软件准备
 + #### MAC+引导
-本教程所在系统是macOS High Sierra 10.13.3，不能低于10.13，尽量不要选用新的Mojave。可以在mac的app store里下到相关系统。   
-![image](https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-115807%402x.png)
+  <br/>本教程所在系统是macOS High Sierra 10.13.3，不能低于10.13，尽量不要选用新的Mojave。可以在mac的app store里下到相关系统。</br>
+  <br/>点击[下载地址](https://support.apple.com/zh-cn/HT208969)，步骤四中点击“获取macOS High Sierra”即可跳转至mac的app store进行下载。</br>
 
-  点击下载地址[https://support.apple.com/zh-cn/HT208969](https://support.apple.com/zh-cn/HT208969)，步骤四中点击“获取macOS High Sierra”即可跳转至mac的app store进行下载。
+![image](https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-115908@2x.png)
 
- 链接自动跳转到app store里，点击“下载”即可下载到本地文件夹，大约5.6GB。
+  <br/>链接自动跳转到app store里，点击“下载”即可下载到本地文件夹，大约5.6GB。</br>
 
- 引导部分使用Disk Maker x7 for High Sierra，[http://diskmakerx.com/whats-this/](http://diskmakerx.com/whats-this/)，选择“Download DiskMaker X 7.0.1”进行下载。
+![image](https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-115909@2x.png)
+---
+  引导部分使用[Disk Maker x7 for High Sierra](http://diskmakerx.com/whats-this/)，选择“Download DiskMaker X 7.0.1”进行下载。
 
 
 + #### Ubuntu+引导
-建议官网进行下载，版本不限，[https://www.ubuntu.com/download/alternative-downloads](https://www.ubuntu.com/download/alternative-downloads)，
+  建议[官网进行下载](https://www.ubuntu.com/download/alternative-downloads)，版本不限，
 
 
 
