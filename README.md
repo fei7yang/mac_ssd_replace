@@ -88,7 +88,7 @@
 ---
 
 ## 3 启动盘烧录&备份
-### 2.1 macOS烧录
+### 3.1 macOS烧录
 + 使用已经下载下来的**Disk Maker**进行macOS的启动盘烧录，插入U盘后，打开Disk Maker后会执行自动检测。
 
 + 选择正确的macOS下载路径。
@@ -148,7 +148,7 @@
 + 等待烧录完成，会弹出提示框，关闭即可。
 
 <p align="center">
-    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-201945@2x.png" alt="Pic"  width="300">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-201945@2x.png" alt="Pic"  width="700">
     <p align="center">
         <em></em>
     </p>
@@ -158,21 +158,116 @@
 
 ---
 
-### 2.2 Ubuntu烧录
-### 2.3 Time Machine备份
+### 3.2 Ubuntu烧录
++ 使用已经下载下来的**Etcher**进行ubuntu的启动盘烧录，由于Etcher并不具有格式化功能，所以需要提前进行U盘B的格式化。
 
++ 打开系统自带的“Disk Utility”（磁盘工具），选择正确的U盘，进行U盘B的擦除，格式化的格式无所谓，擦除完毕即可。
 
+<p align="center">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-120606@2x.png" alt="Pic"  width="700">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
 
++ 打开“Etcher”软件。
 
+<p align="center">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-120958@2x.png" alt="Pic"  width="700">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
 
++ 选择下载好的镜像，选择正确的U盘B，点击“烧录”即可进行Ubuntu的启动盘烧录和验证过程。
 
+<p align="center">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-120507@2x.png" alt="Pic"  width="700">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
 
+<p align="center">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-120743@2x.png" alt="Pic"  width="700">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
 
++ 烧录完成将会弹出“U盘无法识别”的通知，点击“弹出”即可完成烧录过程。
 
+<p align="center">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-120926@2x.png" alt="Pic"  width="700">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
 
++ 到此，Ubuntu启动盘烧录完成。
 
+---
 
+### 3.3 Time Machine备份
++ 本教程使用Mac自带的Time Machine进行系统和数据的备份，视系统数据大小需要一定容量的外置移动硬盘。
 
++ 打开左上角苹果-系统偏好设置-Time Machine。
+
+<p align="center">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181122-174004@2x.png" alt="Pic"  width="700">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
+
++ 在Time Machine偏好设置面板里进行相关备份设置。
+
+<p align="center">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181122-174025@2x.png" alt="Pic"  width="700">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
+
++ 选择备份输出的外置移动硬盘，此处需要注意：作为备份数据存储中心的移动硬盘必须进行**格式化**，所以一定要提前准备好一块空的移动硬盘。
+
+<p align="center">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181122-174033@2x.png" alt="Pic"  width="700">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
+
++ 勾选“自动备份”和“在任务栏显示Time Machine”。
+
+<p align="center">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181122-174130@2x.png" alt="Pic"  width="700">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
+
++ 在“Option”中选择需要剔除的文件夹路径，方便系统和数据的快速备份。
+
+<p align="center">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181122-174158@2x.png" alt="Pic"  width="700">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
+
++ 在打开Time Machine的情况下，插入外置移动硬盘，将会自动进行系统及数据备份，等待备份完成即可。
+
+---
+
+## 4 拆机&硬件更换
+### 4.1 拆机
++ 拆机需要使用Mac专用的螺丝刀，在章节2.1.6中有具体介绍。其余常见拆机设备如静电手环、无尘工作桌等配置越多越好。
++ **注意：拆机有风险！误操作可能会导致元器件损坏报废！**
++ **注意：拆机有风险！误操作可能会导致元器件损坏报废！**
++ **注意：拆机有风险！误操作可能会导致元器件损坏报废！**
++ 
+### 4.2 新旧SSD更换
 
 
 
