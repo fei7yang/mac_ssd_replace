@@ -2,45 +2,45 @@
 # MacBook SSD Replacement
 
 ## 1. 前言
-本教程纯手工打制，也仅在本机所处环境下测试通过，并不具有完全通用性。
-苹果原装1T SSD几乎8000元左右，而nvme的顶级1T SSD一般在2000-2500左右，通过转接头可以完美实现SSD替换操作，节省预算，速度更快。
++ 本教程纯手工打制，也仅在本机所处环境下测试通过，并不具有完全通用性。
++ 苹果原装1T SSD几乎8000元左右，而nvme的顶级1T SSD一般在2000-2500左右，通过转接头可以完美实现SSD替换操作，节省预算，速度更快。
+
+---
+
 ## 2 前期准备
 ### 2.1 硬件准备
-+ #### 电脑
-MacBook Pro with Retina，13寸，2015年初款。
+#### 2.1.1 电脑
++ MacBook Pro with Retina，13寸，2015年初款。
 
 <p align="center">
-    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-115807%402x.png" alt="Pic"  width="666">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-115807%402x.png" alt="Pic"  width="700">
     <p align="center">
         <em></em>
     </p>
 </p>
 
-理论上只要是2015年末之前的MacBook，不论型号，都可以进行硬盘替换，目前已知2017款后均采取内存、硬盘焊死操作，不允许进行第三方改装。
-检测方法：背面苹果LOGO能亮灯一般就是可以改装。
-+ #### 两个U盘
-作为启动盘引导改装过程。
-U盘A用来预装macOS，U盘B用来预装Ubuntu系统。需要注意的是，U盘A必须有，否则无法启动；在新盘挂载时，可能会出现无法识别的情况，需要利用U盘B的Ubuntu系统进行新盘检测+格式化，所以B并非是必须，建议提前准备好，人品好请无视此条并跳过所有U盘B的操作部分。
-+ #### 外部存储介质
-如移动硬盘等,用来备份当前macOS内的所有数据，后期更换硬盘后进行恢复。
-+ #### 新SSD
-理论上nvme接口的都可以,本教程选用三星的970EVO 1T固态硬盘，读取3500mb/s，写入2500mb/s，接口类型类似的理论上都可以进行改装。
-+ #### M.2 ngff转nvme转换接头
-淘宝，15元一个,转换接头+新SSD=旧SSD。
-+ #### 五星螺丝刀等常用拆装机设备
-淘宝，6元左右两把,用于拆装MacBook。
++ 理论上只要是2015年末之前的MacBook，不论型号，都可以进行硬盘替换，目前已知2017款后均采取内存、硬盘焊死操作，不允许进行第三方改装。
 
-
-
-
++ 检测方法：背面苹果LOGO能亮灯一般就是可以改装。
+#### 2.1.2 两个U盘
++ 作为启动盘引导改装过程。
++ U盘A用来预装macOS，U盘B用来预装Ubuntu系统。需要注意的是，**U盘A必须有**，否则无法启动；在新盘挂载时，可能会出现无法识别的情况，需要利用U盘B的Ubuntu系统进行新盘检测+格式化，所以**B并非是必须**，建议提前准备好，人品好请无视此条并跳过所有U盘B的操作部分。
+#### 2.1.3 外部存储介质
++ 如移动硬盘等,用来备份当前macOS内的所有数据，后期更换硬盘后进行恢复。
+#### 2.1.4 新SSD
++ 理论上nvme接口的都可以,本教程选用三星的970EVO 1T固态硬盘，读取3500mb/s，写入2500mb/s，接口类型类似的理论上都可以进行改装。
+#### 2.1.5 M.2 ngff转nvme转换接头
++ 淘宝，15元一个,转换接头+新SSD=旧SSD。
+#### 2.1.6 五星螺丝刀等常用拆装机设备
++ 淘宝，6元左右两把,用于拆装MacBook。
 
 ### 2.2 软件准备
-#### 2.2.1 MAC+引导
+#### 2.2.1 macOS+引导
 + 本教程所在系统是macOS High Sierra 10.13.3，不能低于10.13，尽量不要选用新的Mojave。可以在mac的app store里下到相关系统。
 + 点击[下载地址](https://support.apple.com/zh-cn/HT208969)，步骤四中点击“获取macOS High Sierra”即可跳转至mac的app store进行下载。
 
 <p align="center">
-    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-115908@2x.png" alt="Pic"  width="600">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-115908@2x.png" alt="Pic"  width="700">
     <p align="center">
         <em></em>
     </p>
@@ -55,16 +55,111 @@ U盘A用来预装macOS，U盘B用来预装Ubuntu系统。需要注意的是，U�
     </p>
 </p>
 
----------------------
-
 + 引导部分使用[Disk Maker x7 for High Sierra](http://diskmakerx.com/whats-this/)，选择“Download DiskMaker X 7.0.1”进行下载。
 
-#### 2. Ubuntu+引导
+<p align="center">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-115910@2x.png" alt="Pic"  width="700">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
+
+#### 2.2.2 Ubuntu+引导
 + 建议[官网进行下载](https://www.ubuntu.com/download/alternative-downloads)，版本不限，
 
+<p align="center">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-225227@2x.png" alt="Pic"  width="700">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
 
++ 本次教程选用的是Ubuntu 16.04.5 Desktop (64bit)，下载完成大约1.6GB，格式为ISO。
 
++ 引导部分使用[Belena Etcher](https://www.balena.io/etcher/)，选择“Etcher for macOS”进行下载。
 
+<p align="center">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-225212@2x.png" alt="Pic"  width="700">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
+
+---
+
+## 3 启动盘烧录&备份
+### 2.1 macOS烧录
++ 使用已经下载下来的**Disk Maker**进行macOS的启动盘烧录，插入U盘后，打开Disk Maker后会执行自动检测。
+
++ 选择正确的macOS下载路径。
+
+<p align="center">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-201223@2x.png" alt="Pic"  width="700">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
+
++ 选择是“格式化部分分区”还是“格式化当前U盘”。建议使用提前清理好的U盘，“格式化当前U盘”。
+
+<p align="center">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-201324@2x.png" alt="Pic"  width="700">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
+
++ 选择已经插入的U盘。
+
+<p align="center">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-201330@2x.png" alt="Pic"  width="700">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
+
++ 确认清空当前U盘并创建引导盘。
+
+<p align="center">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-201339@2x.png" alt="Pic"  width="700">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
+
++ 确认清空当前U盘并创建引导盘。
+
+<p align="center">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-201346@2x.png" alt="Pic"  width="700">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
+
++ 右上角通知栏将会显示烧录进度。
+
+<p align="center">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-201435@2x.png" alt="Pic"  width="300">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
+
++ 等待烧录完成，会弹出提示框，关闭即可。
+
+<p align="center">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-201945@2x.png" alt="Pic"  width="300">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
+
++ 到此，macOS启动盘烧录完成。
+
+---
+
+### 2.2 Ubuntu烧录
+### 2.3 Time Machine备份
 
 
 
