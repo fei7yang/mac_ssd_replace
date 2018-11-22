@@ -8,7 +8,14 @@
 ### 硬件准备
 + #### 电脑
 MacBook Pro with Retina，13寸，2015年初款。
-![image](https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-115807%402x.png)
+
+<p align="center">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-115807%402x.png" alt="Pic"  width="666">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
+
 理论上只要是2015年末之前的MacBook，不论型号，都可以进行硬盘替换，目前已知2017款后均采取内存、硬盘焊死操作，不允许进行第三方改装。
 检测方法：背面苹果LOGO能亮灯一般就是可以改装。
 + #### 两个U盘
@@ -32,18 +39,22 @@ U盘A用来预装macOS，U盘B用来预装Ubuntu系统。需要注意的是，U�
 + 本教程所在系统是macOS High Sierra 10.13.3，不能低于10.13，尽量不要选用新的Mojave。可以在mac的app store里下到相关系统。
 + 点击[下载地址](https://support.apple.com/zh-cn/HT208969)，步骤四中点击“获取macOS High Sierra”即可跳转至mac的app store进行下载。
 
-![image](https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-115908@2x.png)
-
-+ 链接自动跳转到app store里，点击“下载”即可下载到本地文件夹，大约5.6GB。
-
-![image](https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-115909@2x.png)
----
 <p align="center">
-    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-115909@2x.png" alt="Pic"  width="500">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-115908@2x.png" alt="Pic"  width="600">
     <p align="center">
         <em></em>
     </p>
 </p>
+
++ 链接自动跳转到app store里，点击“下载”即可下载到本地文件夹，大约5.6GB。
+
+<p align="center">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-115909@2x.png" alt="Pic"  width="700">
+    <p align="center">
+        <em></em>
+    </p>
+</p>
+
 ---------------------
 
 + 引导部分使用[Disk Maker x7 for High Sierra](http://diskmakerx.com/whats-this/)，选择“Download DiskMaker X 7.0.1”进行下载。
