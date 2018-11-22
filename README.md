@@ -38,10 +38,10 @@ U盘A用来预装macOS，U盘B用来预装Ubuntu系统。需要注意的是，U�
 
 ![image](https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-115909@2x.png)
 ---
-<p align="right">
-    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-115909@2x.png" alt="Sample"  width="50">
+<p align="center">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-115909@2x.png" alt="Pic"  width="500">
     <p align="center">
-        <em>图片示例2</em>
+        <em></em>
     </p>
 </p>
 ---------------------
