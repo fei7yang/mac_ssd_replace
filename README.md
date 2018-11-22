@@ -28,7 +28,7 @@ U盘A用来预装macOS，U盘B用来预装Ubuntu系统。需要注意的是，U�
 
 
 ### 软件准备
-1. #### MAC+引导
+#### 1. MAC+引导
 + 本教程所在系统是macOS High Sierra 10.13.3，不能低于10.13，尽量不要选用新的Mojave。可以在mac的app store里下到相关系统。
 + 点击[下载地址](https://support.apple.com/zh-cn/HT208969)，步骤四中点击“获取macOS High Sierra”即可跳转至mac的app store进行下载。
 
@@ -38,9 +38,17 @@ U盘A用来预装macOS，U盘B用来预装Ubuntu系统。需要注意的是，U�
 
 ![image](https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-115909@2x.png)
 ---
+<p align="right">
+    <img src="https://github.com/fei7yang/mac_ssd_replace/blob/master/assets/WX20181121-115909@2x.png" alt="Sample"  width="50">
+    <p align="center">
+        <em>图片示例2</em>
+    </p>
+</p>
+---------------------
+
 + 引导部分使用[Disk Maker x7 for High Sierra](http://diskmakerx.com/whats-this/)，选择“Download DiskMaker X 7.0.1”进行下载。
 
-2. #### Ubuntu+引导
+#### 2. Ubuntu+引导
 + 建议[官网进行下载](https://www.ubuntu.com/download/alternative-downloads)，版本不限，
 
 
