@@ -1,9 +1,18 @@
 2018.11.21
 # MacBook SSD Replacement
-[![NPM version](https://img.shields.io/npm/v/markdown-toc.svg?style=flat)](https://www.npmjs.com/package/markdown-toc) [![NPM monthly downloads](https://img.shields.io/npm/dm/markdown-toc.svg?style=flat)](https://npmjs.org/package/markdown-toc)  [![NPM total downloads](https://img.shields.io/npm/dt/markdown-toc.svg?style=flat)](https://npmjs.org/package/markdown-toc) [![Linux Build Status](https://img.shields.io/travis/jonschlinkert/markdown-toc.svg?style=flat&label=Travis)](https://travis-ci.org/jonschlinkert/markdown-toc) [![Windows Build Status](https://img.shields.io/appveyor/ci/jonschlinkert/markdown-toc.svg?style=flat&label=AppVeyor)]
+[![NPM version](https://img.shields.io/npm/v/markdown-toc.svg?style=flat)](https://www.npmjs.com/package/markdown-toc)   
+[![NPM monthly downloads](https://img.shields.io/npm/dm/markdown-toc.svg?style=flat)](https://npmjs.org/package/markdown-toc)  
+[![NPM total downloads](https://img.shields.io/npm/dt/markdown-toc.svg?style=flat)](https://npmjs.org/package/markdown-toc)  
+[![Linux Build Status](https://img.shields.io/travis/jonschlinkert/markdown-toc.svg?style=flat&label=Travis)](https://travis-ci.org/jonschlinkert/markdown-toc)   
+[![Windows Build Status](https://img.shields.io/appveyor/ci/jonschlinkert/markdown-toc.svg?style=flat&label=AppVeyor)]()   
+[![macOS Build Status](https://api.travis-ci.org/naokazuterada/MarkdownTOC.svg?branch=master&label=macOS+build "macOS Build Status")](https://travis-ci.org/naokazuterada/MarkdownTOC)
 >Generate a markdown TOC (table of contents) with Remarkable.
 
 # 目录
+<details>
+  <summary>点击打开目录</summary>
+    <!-- MarkdownTOC autolink="true" levels="1,2,3,4,5,6" bracket="round" style="unordered" indent="    " autoanchor="false" markdown_preview="github" -->
+
 + [1 前言](#1 前言)
 + [2 前期准备](#2 前期准备)
   * [2.1 硬件准备](#2.1 硬件准备)
@@ -23,7 +32,8 @@
 + [4 拆机&硬件更换](#4 拆机&硬件更换)
   * [4.1 拆机](#4.1 拆机)
   * [4.2 新旧SSD更换](#4.2 新旧SSD更换)
-[TOC]
+    <!-- /MarkdownTOC -->
+</details>
 
 ## 1 前言
 + 本教程纯手工打制，也仅在本机所处环境下测试通过，并不具有完全通用性。
