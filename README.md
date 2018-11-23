@@ -1,7 +1,31 @@
 2018.11.21
 # MacBook SSD Replacement
+[![NPM version](https://img.shields.io/npm/v/markdown-toc.svg?style=flat)](https://www.npmjs.com/package/markdown-toc) [![NPM monthly downloads](https://img.shields.io/npm/dm/markdown-toc.svg?style=flat)](https://npmjs.org/package/markdown-toc)  [![NPM total downloads](https://img.shields.io/npm/dt/markdown-toc.svg?style=flat)](https://npmjs.org/package/markdown-toc) [![Linux Build Status](https://img.shields.io/travis/jonschlinkert/markdown-toc.svg?style=flat&label=Travis)](https://travis-ci.org/jonschlinkert/markdown-toc) [![Windows Build Status](https://img.shields.io/appveyor/ci/jonschlinkert/markdown-toc.svg?style=flat&label=AppVeyor)]
+>Generate a markdown TOC (table of contents) with Remarkable.
 
-## 1. 前言
+# 目录
++ [1 前言](#1 前言)
++ [2 前期准备](#2 前期准备)
+  * [2.1 硬件准备](#2.1 硬件准备)
+    * [2.1.1 电脑](#2.1.1 电脑)
+    * [2.1.2 两个U盘](#2.1.2 两个U盘)
+    * [2.1.3 外部存储介质](#2.1.3 外部存储介质)
+    * [2.1.4 新SSD](#2.1.4 新SSD)
+    * [2.1.5 M.2 ngff转nvme转换接头](#2.1.5 M.2 ngff转nvme转换接头)
+    * [2.1.6 五星螺丝刀等常用拆装机设备](#2.1.6 五星螺丝刀等常用拆装机设备)
+  * [2.2 软件准备](#2.2 软件准备)
+    * [2.2.1 macOS+引导](#2.2.1 macOS+引导)
+    * [2.2.2 Ubuntu+引导](#2.2.2 Ubuntu+引导)
++ [3 启动盘烧录&备份](#3 启动盘烧录&备份)
+  * [3.1 macOS烧录](#3.1 macOS烧录)
+  * [3.2 Ubuntu烧录](#3.2 Ubuntu烧录)
+  * [3.3 Time Machine备份](#3.3 Time Machine备份)
++ [4 拆机&硬件更换](#4 拆机&硬件更换)
+  * [4.1 拆机](#4.1 拆机)
+  * [4.2 新旧SSD更换](#4.2 新旧SSD更换)
+[TOC]
+
+## 1 前言
 + 本教程纯手工打制，也仅在本机所处环境下测试通过，并不具有完全通用性。
 + 苹果原装1T SSD几乎8000元左右，而nvme的顶级1T SSD一般在2000-2500左右，通过转接头可以完美实现SSD替换操作，节省预算，速度更快。
 
@@ -266,7 +290,7 @@
 + **注意：拆机有风险！误操作可能会导致元器件损坏报废！**
 + **注意：拆机有风险！误操作可能会导致元器件损坏报废！**
 + **注意：拆机有风险！误操作可能会导致元器件损坏报废！**
-+ 
++
 ### 4.2 新旧SSD更换
 
 
