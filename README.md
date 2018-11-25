@@ -6,7 +6,7 @@
 [![Linux Build Status](https://img.shields.io/travis/jonschlinkert/markdown-toc.svg?style=flat&label=Travis)](https://travis-ci.org/jonschlinkert/markdown-toc)   
 [![Windows Build Status](https://img.shields.io/appveyor/ci/jonschlinkert/markdown-toc.svg?style=flat&label=AppVeyor)]()   
 [![macOS Build Status](https://api.travis-ci.org/naokazuterada/MarkdownTOC.svg?branch=master&label=macOS+build "macOS Build Status")](https://travis-ci.org/naokazuterada/MarkdownTOC)
->Generate a markdown TOC (table of contents) with Remarkable.
+>MacBook SSD Replacement.
 
 # 目录
 <details>
