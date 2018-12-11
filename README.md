@@ -316,7 +316,7 @@
 ## 5 系统引导&数据恢复
 ### 5.1 macOS系统引导
 + 本步骤应当遵循的过程是：  
-flow
+```flow
 st=>start: Start
 op=>operation: Your Operation
 cond=>condition: Yes or No?
@@ -324,7 +324,7 @@ e=>end
 st->op->cond
 cond(yes)->e
 cond(no)->op
-
+```
 +
 +
 
